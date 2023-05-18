@@ -5,7 +5,7 @@ import {useState} from 'react'
 
 const App = () => {
   let [count,setCount]=useState(0)
-  let counter=()=>{
+  function counter(){
     setCount(count+1)
   }
   return (
@@ -17,3 +17,4 @@ const App = () => {
 }
 
 export default App
+
